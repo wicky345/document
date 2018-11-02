@@ -1,0 +1,157 @@
+.ox-login {
+    background: url('/static/Login_picture.png') 100px 180px #005080 no-repeat;
+    background-size: 48% auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.ox-login__logo {
+    padding-top: 65px;
+    padding-left:100px;
+}
+.ox-login__legend {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    color:#000000;
+}
+.loginForm .ox-login__input{
+    height:48px;
+    border-radius: 4px; 
+    box-shadow:none;
+}
+.ox-login__body {
+    width: 440px;
+    background: #fff;
+    padding: 20px 40px 20px 40px;
+    align-self: center;
+    margin: 50px 100px 0 0;
+}
+.ox-login-main{
+    padding:0;
+}
+.ox-login-btn {
+    width:100%;
+    height:50px;
+    padding:18px 130.4px 18px 145.5px;
+    background-image: linear-gradient(to right, #005080 0%, #08BCCC 100%);
+    border-radius: 4px;
+    font-family: PingFangSC-Semibold;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    line-height: 14px;
+    margin:19px auto 0px auto;
+    display: block;
+    border: none;
+}
+.ox-login-btn:hover{
+    background-image: linear-gradient(to right, #005080 0%, #08BCCC 100%);
+}
+
+.ox-sign{
+    display:block;
+    margin:0px auto 0px auto;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #B5B8BB;
+    letter-spacing: 0;
+    line-height: 16px; 
+    text-align:center; 
+}
+.ox-sign a.ox-register-link,a.ox-forget-password{
+    color:#52A7FF;
+    text-decoration:none;
+}
+a.ox-forget-password{
+    float:right;
+}
+a.ox-register-link:hover,a.ox-forget-password:hover{
+    font-family: PingFangSC-Semibold;
+    text-decoration:underline;
+    color: #220000;
+}
+ .ox-login .ox-input__inner {
+        height:48px !important;
+        background: #F0F2F5;
+        border: 1px;
+        left: 10px;
+    }
+.ox-input__inner::-webkit-input-placeholder{
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #B5B8BB;
+    letter-spacing: 0;
+    line-height: 16px;
+}
+.ox-input__inner+span {
+    color: #B5B8BB;
+    font-size: 1.3rem;
+    left: 4px;
+}
+.ox-input__inner:hover,
+.ox-input__inner:focus {
+    border: none;
+}
+.ox-checkbox__input.is-checked + .ox-checkbox__label,
+.ox-checkbox__label {
+    color: #B5B8BB;
+    font-size: 0.8rem; 
+    font-weight: 600;
+    padding-left:0px;
+}
+.ox-checkbox a:-webkit-any-link{
+    color:#52A7FF;
+}
+.ox-checkbox-item{
+    margin-bottom: 0;
+    text-align: left;
+}
+@media only screen and (max-width: 480px) {
+    .ox-login {
+        width: 100%;
+        background: #005080;
+        text-align: center;
+        flex-direction: column;
+        justify-content: normal;
+        padding-top:30px;
+    }
+    .ox-login__body {
+        width: 100%;
+        align-self: none;
+        background: #005080;
+    }
+    .ox-login .ox-input__inner{
+        background: #fff;
+    }
+    .ox-checkbox__input.is-checked + .ox-checkbox__label, .ox-checkbox__label{
+        color: #B3D2E7;
+    }
+    .ox-sign{
+        color: #B3D2E7;
+    }
+    .ox-sign a.ox-register-link{
+        color: #1383e5;
+    }
+    .ox-login-btn{
+        background: #0096FF;
+        border: none;
+    }
+    .ox-login__legend{
+        color: #fff;
+        font-size: 18px;
+        padding: 0 20px 20px 20px;
+    }
+    .ox-login__body{
+        margin: 0;
+        padding: 0px 40px 0 40px;
+    }
+    .ox-login__logo {
+        padding-left: 0;
+        padding-top: 0;
+    }
+}
+svg{
+    height: 45px;
+    vertical-align: middle;
+  }
